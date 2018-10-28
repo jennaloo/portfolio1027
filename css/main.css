@@ -1,0 +1,185 @@
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar li:hover {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#profpic {
+    background-image: url('../img/profilepic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jsProjects {
+    background-image: url('../img/stars.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.js {
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.jsImg {
+    height: 190px;
+    width: auto;
+}
+
+#cards {
+    background-image: url('../img/cardApp.png');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid black;
+}
+
+#todo {
+    background-image: url('../img/toDoList.png');
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#comment {
+    background-image: url('../img/commentApp.png');
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#quizApp {
+    background-image: url('../img/quizApp.png');
+    background-size: cover;
+    border: 3px solid black;
+    height: 250px;
+}
+
+#zodiacApp {
+    background-image: url('../img/zodiacApp.png');
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#jobTracker {
+    background-image: url('../img/jobTracker.png');
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#colorfulFlat {
+    background-image: url('../img/colorfulFlat.png');
+    height: 250px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+#appleReplica {
+    background-image: url('../img/appleReplica.png');
+    background-size: cover;
+    border: 3px solid white;
+}
+
+#liquidGem {
+    background-image: url('../img/liquidGem.png');
+    background-size: cover;
+    border: 3px solid white;
+}
+
+#adoption {
+    background-image: url('../img/adoption.png');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid white;
+}
+
+#metroReplica {
+    background-image: url('../img/metroReplica.png');
+    background-size: cover;
+    border: 3px solid white;
+}
+
+#jurassicPark {
+    background-image: url('../img/jurrasicPark.png');
+    background-size: cover;
+    border: 3px solid white;
+}
+
+#myFolio {
+    background-image: url('../img/myFolio.png');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid white;
+}
+
+#orangePSD {
+    background-image: url('../img/orangePSD.png');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid white;
+}
+
+#strict {
+    background-image: url('../img/strict.png');
+    background-size: cover;
+    height: 250px;
+    border: 3px solid white;
+}
+
+#footer {
+    height: 50vh;
+    background-color: black;
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
